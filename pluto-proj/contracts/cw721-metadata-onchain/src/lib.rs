@@ -16,7 +16,7 @@ pub struct Trait {
 pub struct Metadata {
     pub image: Option<String>,
     pub image_data: Option<String>,
-    pub external_url: Option<String>, //
+    pub external_url: Option<String>,
     pub description: Option<String>,
     pub name: Option<String>,
     pub attributes: Option<Vec<Trait>>,
@@ -66,8 +66,6 @@ pub mod entry {
     }
 }
 
-
-// tests over here
 #[cfg(test)]
 mod tests {
     use super::*;
